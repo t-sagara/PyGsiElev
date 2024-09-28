@@ -12,6 +12,12 @@ specified coordinates, using the open DEM data distributed from GSI.
 
 ## How to use
 
+Install `pygsielev` package using pip.
+
+```
+$ pip install pygsielev
+```
+
 Import `pygsielev.ElevationExtractor` class and instanciate with `data_dir`.
 Then, call `get_elevation()` of the object with longitude and latitude.
 
